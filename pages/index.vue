@@ -1,0 +1,93 @@
+<template>
+    <div>
+        <div class="border-t">
+            <div class="breadcrumbs max-w-full text-sm bg-base-200 border-b">
+                <ul class="px-4">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Posts</a></li>
+                    <li>Create New Post</li>
+                </ul>
+            </div>
+        </div>
+        <div id="content" class="lg:p-10">
+            <div class="card bg-base-100 w-full lg:w-6/12">
+                <div class="card-body">
+                    <div class="header flex items-center justify-between">
+                        <h2 class="card-title">Create New Post</h2>
+                        <div id="action_buttons" class="flex items-center gap-2">
+                            <button class="btn btn-sm btn-neutral text-gray-100">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+                                </svg>
+                            </button>
+                            <!-- <button class="btn btn-sm btn-info text-white">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                </button>
+                <button class="btn btn-sm btn-error text-white">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0"
+                    />
+                  </svg>
+                </button> -->
+                        </div>
+                    </div>
+                    <div class="card-content mt-2 lg:mt-4">
+                        <form action="#">
+                            <div class="form-control">
+                                <div class="label">
+                                    <label for="name" class="label-text">Name</label>
+                                </div>
+                                <input type="text" id="name" class="input input-bordered" />
+                            </div>
+                            <div class="form-control">
+                                <div class="label">
+                                    <label for="email" class="label-text">Email</label>
+                                </div>
+                                <input type="email" id="email" class="input input-bordered" />
+                            </div>
+                            <div class="grid lg:grid-cols-2 lg:gap-4">
+                                <div class="form-control">
+                                    <div class="label">
+                                        <label for="avatar" class="label-text">Featured Avatar</label>
+                                    </div>
+                                    <input type="file" id="avatar" class="file-input file-input-bordered" />
+                                </div>
+                                <div class="form-control">
+                                    <div class="label">
+                                        <label for="avatar_alt" class="label-text">Featured Avatar</label>
+                                    </div>
+                                    <input type="text" id="avatar_alt" class="input input-bordered" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
