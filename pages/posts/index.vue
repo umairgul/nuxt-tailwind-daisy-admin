@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="lg:p-10">
-            <div class="card bg-base-100 w-full">
+            <Card>
                 <div class="card-body">
                     <div class="header flex items-center justify-between">
                         <h2 class="card-title">Posts</h2>
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </Card>
         </div>
     </div>
 </template>
