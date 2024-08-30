@@ -4,9 +4,13 @@
         <ul class="menu bg-base-200 min-h-full w-56 p-4">
             <!-- Sidebar content here -->
             <li>
-                <img class="mask mask-circle" src="/assets/images/logo.png" />
+                <NuxtLink to="/">
+                    <img src="/assets/images/logo.png" />
+                </NuxtLink>
             </li>
-            <li><a>Posts</a></li>
+            <li>
+                <NuxtLink to="/posts">Posts</NuxtLink>
+            </li>
             <li><a>Categories</a></li>
             <li><a>Tags</a></li>
             <li>
